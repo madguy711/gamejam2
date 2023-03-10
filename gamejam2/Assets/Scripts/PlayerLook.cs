@@ -10,6 +10,7 @@ public class PlayerLook : MonoBehaviour
     }
 
     void Update(){
+
         Vector3 mousePosition = Input.mousePosition;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
